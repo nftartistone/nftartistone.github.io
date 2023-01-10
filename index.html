@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Famous Co-Author</title>
+  </head>
+  <body>
+    <h1>Famous Co-Author</h1>
+    <form id="rewrite-form">
+      <label for="script">Script:</label><br>
+      <textarea id="script" rows="10" cols="50"></textarea><br>
+      <label for="author">Famous Co-Author:</label>
+      <select id="author">
+        <option value="J.R.R. Tolkien">J.R.R. Tolkien</option>
+        <option value="J.K. Rowling">J.K. Rowling</option>
+        <option value="George R.R. Martin">George R.R. Martin</option>
+        <option value="C.S. Lewis">C.S. Lewis</option>
+        <option value="Neil Gaiman">Neil Gaiman</option>
+        <option value="J.M. Barrie">J.M. Barrie</option>
+        <option value="Ursula K. Le Guin">Ursula K. Le Guin</option>
+        <option value="Frank L. Baum">Frank L. Baum</option>
+        <option value="Terry Pratchett">Terry Pratchett</option>
+        <option value="China Miéville">China Miéville</option>
+      </select><br><br>
+      <button type="submit">Rewrite</button>
+    </form>
+    <h2>New Script:</h2>
+    <pre id="new-script"></pre>
+
+    <!-- Load jQuery and the script that handles the form submission -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
